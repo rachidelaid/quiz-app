@@ -1,0 +1,247 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #2e2e2e;
+  font-family: sans-serif;
+  color: #fff;
+}
+
+.container {
+  text-align: center;
+  padding: 0 50px;
+}
+@keyframes ldio-m22qm4yu61q {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.ldio-m22qm4yu61q div {
+  left: 94px;
+  top: 48px;
+  position: absolute;
+  animation: ldio-m22qm4yu61q linear 1s infinite;
+  background: #ffffff;
+  width: 12px;
+  height: 24px;
+  border-radius: 6px / 12px;
+  transform-origin: 6px 52px;
+}
+.ldio-m22qm4yu61q div:nth-child(1) {
+  transform: rotate(0deg);
+  animation-delay: -0.9166666666666666s;
+  background: #ffffff;
+}
+.ldio-m22qm4yu61q div:nth-child(2) {
+  transform: rotate(30deg);
+  animation-delay: -0.8333333333333334s;
+  background: #ffffff;
+}
+.ldio-m22qm4yu61q div:nth-child(3) {
+  transform: rotate(60deg);
+  animation-delay: -0.75s;
+  background: #ffffff;
+}
+.ldio-m22qm4yu61q div:nth-child(4) {
+  transform: rotate(90deg);
+  animation-delay: -0.6666666666666666s;
+  background: #ffffff;
+}
+.ldio-m22qm4yu61q div:nth-child(5) {
+  transform: rotate(120deg);
+  animation-delay: -0.5833333333333334s;
+  background: #ffffff;
+}
+.ldio-m22qm4yu61q div:nth-child(6) {
+  transform: rotate(150deg);
+  animation-delay: -0.5s;
+  background: #ffffff;
+}
+.ldio-m22qm4yu61q div:nth-child(7) {
+  transform: rotate(180deg);
+  animation-delay: -0.4166666666666667s;
+  background: #ffffff;
+}
+.ldio-m22qm4yu61q div:nth-child(8) {
+  transform: rotate(210deg);
+  animation-delay: -0.3333333333333333s;
+  background: #ffffff;
+}
+.ldio-m22qm4yu61q div:nth-child(9) {
+  transform: rotate(240deg);
+  animation-delay: -0.25s;
+  background: #ffffff;
+}
+.ldio-m22qm4yu61q div:nth-child(10) {
+  transform: rotate(270deg);
+  animation-delay: -0.16666666666666666s;
+  background: #ffffff;
+}
+.ldio-m22qm4yu61q div:nth-child(11) {
+  transform: rotate(300deg);
+  animation-delay: -0.08333333333333333s;
+  background: #ffffff;
+}
+.ldio-m22qm4yu61q div:nth-child(12) {
+  transform: rotate(330deg);
+  animation-delay: 0s;
+  background: #ffffff;
+}
+.loadingio-spinner-spinner-7n05b8u1gx8 {
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  overflow: hidden;
+  background: rgba(NaN, NaN, NaN, 0);
+}
+.ldio-m22qm4yu61q {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform: translateZ(0) scale(1);
+  backface-visibility: hidden;
+  transform-origin: 0 0; /* see note above */
+}
+.ldio-m22qm4yu61q div {
+  box-sizing: content-box;
+}
+.diff {
+  display: flex; /*flex*/
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.diff div {
+  padding: 10px 30px;
+  margin: 10px;
+  border-radius: 5px;
+  background-color: #121212;
+  cursor: pointer;
+}
+
+.diff div:hover {
+  background-color: #000;
+}
+
+div.choosen {
+  background-color: #000;
+}
+
+.category {
+  display: flex; /*flex*/
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.catWarp {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+@media only screen and (max-width: 992px) {
+  .catWarp {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .catWarp {
+    grid-template-columns: 1fr;
+  }
+}
+
+.itemC {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  background-color: #121212;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.itemC:hover {
+  background-color: #000;
+}
+
+svg {
+  margin-bottom: 10px;
+}
+
+.quiz {
+  display: none; /*flex*/
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.question {
+  font-size: 1.3em;
+  width: 90%;
+  padding: 40px;
+  margin: 10px;
+  border-radius: 5px;
+  background-color: #121212;
+}
+
+.options {
+  width: 90%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+@media only screen and (max-width: 768px) {
+  .options {
+    grid-template-columns: 1fr;
+  }
+}
+
+.options div {
+  padding: 30px;
+  margin: 10px;
+  border-radius: 5px;
+  background-color: #121212;
+  cursor: pointer;
+}
+
+.options div:hover {
+    background-color: #000;
+}
+
+.result {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#loading {
+  visibility: hidden;
+}
+
+.error {
+  color: #ff8282;
+}
+
+.sucess {
+  color: #85ff95;
+}
+
+#reload {
+  padding: 30px;
+  margin: 10px;
+  border-radius: 5px;
+  background-color: #121212;
+  cursor: pointer;
+}
+#reload svg {
+  margin: 0;
+}
+
+#reload:hover {
+  background-color: #000;
+}
